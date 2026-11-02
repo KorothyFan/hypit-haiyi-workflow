@@ -44,6 +44,8 @@ KoroFlow 面向需要持续制作角色短视频、参考复刻和图文内容�
 
 这些路径可以组合。例如“编辑原视频并保留原声”采用 `A + D`；“先做新场景，再单独配音”可以采用 `C + E`。字母是文档检索标识，不是命令参数。
 
+角色缺件、修补或持久道具容易漂移时，可以用 `A + C`：原片控制故事和动作，必要的状态资产控制身份、材质、道具归属及变化前后。见[状态资产方法](skills/koroflow/references/production-paths/state-and-prop-continuity.md)、[素材绑定表](skills/koroflow/assets/templates/state-asset-binding.md)与[针织玩偶互助案例](skills/koroflow/references/cases/knitted-dolls.md)。资产数量按剧情决定，案例保留已知瑕疵与证据范围。
+
 某个参考素材的时长、切点、笑点和特殊对白仍保存在它自己的项目中，不会因为一次效果不错就变成所有作品的默认要求。路径选择与适用范围见[制作路径总览](skills/koroflow/references/production-paths.md)；新经验可用[路径经验模板](templates/path-experience.md)记录。
 
 ## 四个技能如何配合
@@ -151,6 +153,7 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 | --- | --- |
 | 一条作品怎样制作、检查和交付 | [完整制作规范](skills/koroflow/references/production-standard.md) |
 | 不同素材该采用什么方法 | [制作路径与经验](skills/koroflow/references/production-paths.md) |
+| 原片复刻中如何稳定特殊状态和道具 | [状态资产方法](skills/koroflow/references/production-paths/state-and-prop-continuity.md) · [针织案例](skills/koroflow/references/cases/knitted-dolls.md) |
 | 记录本次方案、附件、参数和费用 | [提交确认单](templates/production-confirmation.md) |
 | 给出多角色、多版本复刻委托 | [复刻委托模板](templates/replication-brief.md) |
 | 本地核心命令、旧工程接续 | [核心记录与执行](skills/koroflow/references/workflow.md) |
@@ -161,6 +164,8 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 ## 版本、开发与来源
 
 当前下载包为 [v0.7.1 预览版](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.1)，包含完整制作规范、七条制作路径、经验模板与新版 README。Release 附件是固定版本快照；`main` 后续可能继续更新，附件不会随源码提交自动变化。更新记录见 [CHANGELOG](CHANGELOG.md)。
+
+2026-11-02新增的状态资产方法、绑定表和针织案例目前仅在源码中，尚未进入v0.7.1附件；需要这些内容请获取当前源码。版本号与旧下载附件保持不变，下次获授权发版时再随新包分发。
 
 开发验证：
 
