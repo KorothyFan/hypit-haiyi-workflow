@@ -8,7 +8,7 @@ KoroFlow 面向需要持续制作角色短视频、参考复刻和图文内容�
 
 [快速开始](#快速开始) · [制作路径](#按不同制作路径使用) · [能力边界](#目前实现到哪一步) · [详细文档](#文档导航)
 
-**下载 v0.7.1 预览版：** [完整源码与技能包 ZIP](https://github.com/KorothyFan/Koroflow/releases/download/v0.7.1/koroflow-v0.7.1-source.zip) · [发布说明与校验文件](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.1)。包内包含四个技能、完整制作规范、七条制作路径和最新使用指南，安装依赖仍按下文准备。
+**下载 v0.7.2 预览版：** [完整源码与技能包 ZIP](https://github.com/KorothyFan/Koroflow/releases/download/v0.7.2/koroflow-v0.7.2-source.zip) · [发布说明与校验文件](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.2)。包内包含四个技能、完整制作规范、七条制作路径，以及新增的状态资产方法、绑定模板和针织案例，安装依赖仍按下文准备。
 
 ## 一套工作流怎样使用
 
@@ -163,9 +163,9 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 
 ## 版本、开发与来源
 
-当前下载包为 [v0.7.1 预览版](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.1)，包含完整制作规范、七条制作路径、经验模板与新版 README。Release 附件是固定版本快照；`main` 后续可能继续更新，附件不会随源码提交自动变化。更新记录见 [CHANGELOG](CHANGELOG.md)。
+当前下载包为 [v0.7.2 预览版](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.2)，包含完整制作规范、七条制作路径、经验模板与新版 README。Release 附件是固定版本快照；`main` 后续可能继续更新，附件不会随源码提交自动变化。更新记录见 [CHANGELOG](CHANGELOG.md)。
 
-2026-11-02新增的状态资产方法、绑定表和针织案例目前仅在源码中，尚未进入v0.7.1附件；需要这些内容请获取当前源码。版本号与旧下载附件保持不变，下次获授权发版时再随新包分发。
+2026-11-02新增的状态资产方法、绑定表和脱敏针织案例已收进v0.7.2附件，可随koroflow技能独立安装；本地作品集、第三方原片、角色资产和私有运行记录保留在使用者本机，不随包分发。
 
 开发验证：
 
