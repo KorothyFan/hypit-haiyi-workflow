@@ -2,6 +2,8 @@
 
 本索引补充[完整制作规范](production-standard.md)，记录不同实现的选择依据。它不是新的模型能力或执行器，也不将某次参考素材的剧情、时长、声音与参数改成全局默认。
 
+开始参考复刻批次时可沿[从选题到交付的执行流程](reference-production-runbook.md)推进，按需要使用[批次交接表](../assets/templates/reference-production-batch.md)；再读本次选中的路径。
+
 ## 先选路径，再读对应经验
 
 | 路径 | 适用请求 | 重点与交付 |

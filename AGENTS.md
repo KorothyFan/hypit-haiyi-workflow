@@ -4,6 +4,8 @@ For production planning and paid submission, read `skills/koroflow/references/pr
 
 For complete video workflows, read `skills/koroflow/SKILL.md`. Preserve the user's chosen production/publishing platforms and local quality rules. Haiyi/Hypit is an existing adapter, documented in `skills/hypit-haiyi/SKILL.md`; the local generic core is `scripts/koroflow.py`. Core records do not invoke platforms. Do not create a false connector or claim a configured descriptor proves live connectivity. Local paths remain in ignored configuration.
 
+For reference recreation batches, follow `skills/koroflow/references/reference-production-runbook.md`: check existing and external outputs, preserve source facts, map source responsibilities to target identities and voices, inspect only the needed assets, bind actual request indices and hashes, then receive, review and hand off real versions. Explicit production instructions can authorize their scope without repeated fixed-word approval. Keep candidate access, requested file handoff, quality acceptance and adoption separate; never falsify quality reviews to pass a delivery gate. Asset counts, time limits and historical prices are project-specific.
+
 Keep video projects separate from the tool and Provider installation. Use `scripts/workflow.mjs init` for new projects. Never replace an existing production with the demo prompt.
 
 For integration development, use the commit pinned in `upstream.json`. Run `node scripts/workflow.mjs verify` after changing Provider behavior or execution/setup helpers. This performs offline mock tests and Source/plan validation, not paid generation. Check skill metadata with the installed skill-creator validator when available.

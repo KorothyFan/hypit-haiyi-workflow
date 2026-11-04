@@ -15,6 +15,8 @@ description: 统筹可更换制作与发布平台的视频工作流，连接制�
 
 ## 按需要完成工作
 
+参考复刻与多版本制作先按[执行流程](references/reference-production-runbook.md)恢复：已有产出核对、原片事实、版本职责与声音映射、按需资产及实际附件、提交接收、审片修订、交付采用与统计。用[批次交接表](assets/templates/reference-production-batch.md)保存当前状态；简单任务只写必要部分，素材专属条件不改成全局默认。
+
 按本次请求选择[制作路径与经验](references/production-paths.md)，只读相关路径：原视频编辑、解读复写、场景图驱动、保留原音轨、声音修订、连续漫画或外部成片／合集。某素材的时长、切点、对白与例外留在对应项目，不改成全局默认；路径可组合，记录方法不代表新增平台能力。
 
 原片复刻中缺件、修补或持久道具反复漂移时，读[A+C状态资产方法](references/production-paths/state-and-prop-continuity.md)，按需要补图并绑定角色、阶段与状态触发动作，不固定图片数量。
