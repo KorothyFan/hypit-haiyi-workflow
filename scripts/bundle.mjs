@@ -30,6 +30,7 @@ const entries = ['README.md', 'NOTICE.md', 'AGENTS.md', 'package.json', '.gitign
   'skills/koroflow/assets/templates/path-experience.md',
   'skills/koroflow/assets/templates/state-asset-binding.md',
   'skills/koroflow/assets/templates/reference-production-batch.md',
+  'skills/koroflow/assets/templates/reference-task-handoff.md',
   'skills/koroflow/assets/templates/adapter.example.json',
   'skills/koroflow/scripts/koroflow_core/__init__.py', 'skills/koroflow/scripts/koroflow_core/core.py',
   'skills/koro-operations/SKILL.md', 'skills/koro-operations/agents/openai.yaml',

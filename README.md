@@ -24,6 +24,8 @@ KoroFlow 面向需要持续制作角色短视频、参考复刻和图文内容�
 
 参考复刻与多版本制作现在有一份[从选题到交付的执行流程](skills/koroflow/references/reference-production-runbook.md)：先核对已有产出，再分析原片、建立角色职责与声音映射、按需准备资产，核对实际附件后提交，最后检查、交付并记录采用。配套[批次交接表](skills/koroflow/assets/templates/reference-production-batch.md)可在不同任务之间续作；已明确委托的范围预检后直接推进，不逐图逐镜重复确认。
 
+需要把方法交给新聊天或同事时，可复制[轻量交接与启动词](skills/koroflow/assets/templates/reference-task-handoff.md)。它保留原片理解、参考分工、请求预检和反馈修订方法；只传递方法时不要求恢复历史库存，也不会自动启动生成。
+
 可以这样开始一个任务：
 
 > 使用 $koroflow，参考这段视频，把主角换成我提供的角色，保留剧情、镜头和原声。先分析适合的制作路径，暂不生成。
@@ -156,6 +158,7 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 | 一条作品怎样制作、检查和交付 | [完整制作规范](skills/koroflow/references/production-standard.md) |
 | 不同素材该采用什么方法 | [制作路径与经验](skills/koroflow/references/production-paths.md) |
 | 如何实际推进一批参考复刻 | [执行流程](skills/koroflow/references/reference-production-runbook.md) · [批次交接表](skills/koroflow/assets/templates/reference-production-batch.md) |
+| 给新AI或同事交接制作方法 | [轻量启动与交接](skills/koroflow/assets/templates/reference-task-handoff.md) · [提示词骨架](skills/hypit-haiyi/references/prompt-direction.md#原视频参考的正文骨架) |
 | 原片复刻中如何稳定特殊状态和道具 | [状态资产方法](skills/koroflow/references/production-paths/state-and-prop-continuity.md) · [针织案例](skills/koroflow/references/cases/knitted-dolls.md) |
 | 记录本次方案、附件、参数和费用 | [提交确认单](templates/production-confirmation.md) |
 | 给出多角色、多版本复刻委托 | [复刻委托模板](templates/replication-brief.md) |
