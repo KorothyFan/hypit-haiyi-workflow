@@ -1,5 +1,7 @@
 # 安装与调用
 
+首次换电脑先读仓库 `docs/laptop-setup.md`，区分直接海艺技能与Hypit Provider的依赖，重新配置并授权，不复制旧机器的Token或绝对路径配置。
+
 此代码库提供统一技能、Provider 和模板，使用固定版本 Hypit 工具，不复制完整 Hypit 核心或海艺原插件。最低 Node.js 22.15；完整新机器准备另需 Git、pnpm 10.33.0、FFmpeg 和 FFprobe。Windows、macOS 与 Linux 均可使用 Node 入口；本次实际验证环境为 Windows。
 
 已有安装：

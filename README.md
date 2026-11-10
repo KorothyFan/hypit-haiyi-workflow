@@ -8,7 +8,9 @@ KoroFlow 面向需要持续制作角色短视频、参考复刻和图文内容�
 
 [快速开始](#快速开始) · [制作路径](#按不同制作路径使用) · [能力边界](#目前实现到哪一步) · [详细文档](#文档导航)
 
-**下载 v0.7.3 预览版：** [完整源码与技能包 ZIP](https://github.com/KorothyFan/Koroflow/releases/download/v0.7.3/koroflow-v0.7.3-source.zip) · [发布说明与校验文件](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.3)。包内包含四个技能、完整制作规范、七条制作路径，以及八阶段复刻执行流程、批次交接表、轻量启动词、提示词骨架和最小修订诊断；安装依赖仍按下文准备。
+**下载 v0.7.4 预览版：** [完整源码与技能包 ZIP](https://github.com/KorothyFan/Koroflow/releases/download/v0.7.4/koroflow-v0.7.4-source.zip) · [发布说明与校验文件](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.4)。包内包含四个技能、完整制作规范、七条制作路径，以及八阶段复刻执行流程、批次交接表、轻量启动词、提示词骨架和最小修订诊断；首次换机器请读[新机器安装与迁移](docs/laptop-setup.md)，按实际制作路径准备依赖。
+
+新机器可使用[安装与迁移指南](docs/laptop-setup.md)和 `python -X utf8 scripts/migration.py --help`。源码只带通用空模板，不带私人角色、声音、偏好、凭据或历史作品；无需搬库存才能开始新片。
 
 ## 一套工作流怎样使用
 
@@ -158,6 +160,7 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 | 一条作品怎样制作、检查和交付 | [完整制作规范](skills/koroflow/references/production-standard.md) |
 | 不同素材该采用什么方法 | [制作路径与经验](skills/koroflow/references/production-paths.md) |
 | 如何实际推进一批参考复刻 | [执行流程](skills/koroflow/references/reference-production-runbook.md) · [批次交接表](skills/koroflow/assets/templates/reference-production-batch.md) |
+| 新机器安装、配置与无付费检查 | [迁移指南](docs/laptop-setup.md) · [机器模板](skills/koroflow/assets/templates/machine.example.json) · [资产清单模板](skills/koroflow/assets/templates/asset-manifest.example.json) |
 | 给新AI或同事交接制作方法 | [轻量启动与交接](skills/koroflow/assets/templates/reference-task-handoff.md) · [提示词骨架](skills/hypit-haiyi/references/prompt-direction.md#原视频参考的正文骨架) |
 | 原片复刻中如何稳定特殊状态和道具 | [状态资产方法](skills/koroflow/references/production-paths/state-and-prop-continuity.md) · [针织案例](skills/koroflow/references/cases/knitted-dolls.md) |
 | 记录本次方案、附件、参数和费用 | [提交确认单](templates/production-confirmation.md) |
@@ -169,9 +172,9 @@ Koroflow/                 本仓库：可分享的技能、规范、模板和工
 
 ## 版本、开发与来源
 
-当前下载包为 [v0.7.3 预览版](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.3)，已包含2026-11-04的制作流程与任务交接更新。Release 附件是固定版本快照；`main` 后续可能继续更新，附件不会随源码提交自动变化。更新记录见 [CHANGELOG](CHANGELOG.md)。
+当前下载包为 [v0.7.4 预览版](https://github.com/KorothyFan/Koroflow/releases/tag/v0.7.4)，已包含2026-11-10的新机器配置、离线检查、纯图重建与制作规范更新。Release 附件是固定版本快照；`main` 后续可能继续更新，附件不会随源码提交自动变化。更新记录见 [CHANGELOG](CHANGELOG.md)。
 
-状态资产方法、绑定表、脱敏针织案例及新的轻量交接模板均收进v0.7.3附件，可随koroflow技能独立安装；本地作品集、第三方原片、角色资产和私有运行记录保留在使用者本机，不随包分发。
+状态资产方法、绑定表、脱敏针织案例及新的轻量交接模板均收进v0.7.4附件，可随koroflow技能独立安装；本地作品集、第三方原片、角色资产和私有运行记录保留在使用者本机，不随包分发。
 
 开发验证：
 

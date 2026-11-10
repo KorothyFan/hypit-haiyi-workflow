@@ -1,0 +1,18 @@
+{
+  "format": "koroflow.machine@1",
+  "route": "planning",
+  "workspace": "./workspace",
+  "asset_root": "./assets",
+  "delivery_root": "./deliveries",
+  "asset_manifest": "./assets.json",
+  "timezone": "Asia/Shanghai",
+  "executor": "",
+  "auth_source": "",
+  "tools": {"python": "python", "node": "node", "git": "git", "ffmpeg": "ffmpeg", "ffprobe": "ffprobe"},
+  "policy": {
+    "require_native_audio": false,
+    "bgm": "per-brief",
+    "dialogue_language": "per-brief",
+    "replace_scene_and_elements": false
+  }
+}

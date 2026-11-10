@@ -9,6 +9,8 @@ description: 统筹可更换制作与发布平台的视频工作流，连接制�
 
 ## 先恢复实际项目
 
+换机器先按仓库 `docs/laptop-setup.md` 重新配置与授权；技能自带 `scripts/migration.py` 和 [机器](assets/templates/machine.example.json)／[资产清单](assets/templates/asset-manifest.example.json)空模板，可在无源码安装中只读自检。它不联网、不提交生成、不认证远程素材。核对本地原生音频政策；Seedance要求声音时实际generateAudio为true，保留旧音轨与无BGM不等于关声。纯图重建见[多图参考](references/production-paths/image-reference-rebuild.md)。
+
 读取用户本地制片约定、CREATIVE_PREFERENCES，以及当前项目 BRIEF/TREATMENT/PROGRESS 和真实任务回执。由仓库安装时 `references/local-setup.json` 提供工具路径；插件直接安装时使用本技能的 `scripts/workflow.py`。工作空间用显式 `--workspace` 或 KOROFLOW_WORKSPACE 定位，不默认建立新生产目录。
 
 已有项目的 work_id、第一交付日期和已选版本继续有效。没有新核心记录时，先用相邻 koro-operations 的 check/snapshot 恢复旧记录；不要将旧工程重新登记为新作。确需接入核心时，用 check --hash 导出的报告显式 import-legacy，导入不会产生新生成/新交付或补造历史日期。找不到旧工程的保留成片继续在原台账管理。

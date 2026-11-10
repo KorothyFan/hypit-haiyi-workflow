@@ -1,0 +1,17 @@
+{
+  "format": "koroflow.assets@1",
+  "assets": [],
+  "entry_fields": {
+    "id": "unique-id",
+    "role_id": "target-character-id",
+    "path": "identity/approved-image.png",
+    "sha256": "replace-with-64-lowercase-hex-digits",
+    "purpose": "identity or voice or state or scene or prop",
+    "approved_version": "approval evidence and date",
+    "proportions_material": "approved shape and material; preserve during contact and movement",
+    "voice_words": "complete words and pronunciation",
+    "speaking_part": "actual movable mouth",
+    "default_bind": false,
+    "adoption_evidence": "required for default voice binding"
+  }
+}

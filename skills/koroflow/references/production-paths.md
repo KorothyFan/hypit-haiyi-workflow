@@ -20,6 +20,8 @@ A/B/C选择叙事和视觉如何形成，D/E选择声音如何处理，可以组
 
 `A + C` 可用于“保留原片故事，先固定易错状态”：见[原片参考＋特殊状态资产](production-paths/state-and-prop-continuity.md)、[素材与状态绑定表](../assets/templates/state-asset-binding.md)和[针织玩偶互助案例](cases/knitted-dolls.md)。这属于两条路径的组合经验，不新增执行器。
 
+多图加提示词、无原视频输入时，使用[B+C图参考重建](production-paths/image-reference-rebuild.md)，逐图说明身份／空间／状态职责，不虚构“视频1”或把参考图自动当首尾帧。
+
 ## 经验的适用范围
 
 记录时区分四种范围：通用制作原则、某条路径的方法、某个素材／版本的决定、某批次的执行安排。保留原文与来源；新经验写进对应路径或项目记录，不整篇覆盖旧案例。
